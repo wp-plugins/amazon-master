@@ -21,6 +21,8 @@ The Amazon Master is fully customizable allowing you to display Gold Box Deals, 
 
 The advanced version includes our shortcode framework, An easy fast way to add Amazon Deals inside any wordpress page or post. This is a professional TechGasp plugin for wordpress, fast page load times and good Google SEO ready!
 
+How about a full Amazon aStore integrated into wordpress? yes, Amazon Master also covers full Amazon aStores. Check online Demo.
+
 Main features: Automatic Income for Wordpress - Uses Amazon API - API ad sizes - API deal discounts - Minimal code, fast load times, error free, no conflicts - Shortcode framework v2 to publish ads inside pages and posts - Easy to use, documentation available
 
 **automatic income for wordpress...**
