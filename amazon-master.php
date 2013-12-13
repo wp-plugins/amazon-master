@@ -2,7 +2,7 @@
 /**
 Plugin Name: Amazon Master
 Plugin URI: http://wordpress.techgasp.com/amazon-master/
-Version: 4.0
+Version: 4.1
 Author: TechGasp
 Author URI: http://wordpress.techgasp.com
 Text Domain: amazon-master

@@ -48,6 +48,7 @@ class amazon_master_widget extends WP_Widget {
 	$defaults = array( 'name' => __('Amazon Master', 'amazon_master'), 'title' => true, 'show_amazondeals' => false, 'amazondeals_code' => false );
 	$instance = wp_parse_args( (array) $instance, $defaults );
 	?>
+		<br>
 		<b>Check the buttons to be displayed:</b>
 	<p>
 	<img src="<?php echo plugins_url('../images/techgasp-minilogo-16.png', __FILE__); ?>" style="float:left; height:16px; vertical-align:middle;" />
@@ -64,7 +65,7 @@ class amazon_master_widget extends WP_Widget {
 	</p>
 	<p>
 	<label for="<?php echo $this->get_field_id( 'amazondeals_code' ); ?>"><?php _e('insert Amazon Deals Code:', 'amazon_master'); ?></label></br>
-	<textarea cols="40" rows="5" id="<?php echo $this->get_field_id( 'amazondeals_code' ); ?>" name="<?php echo $this->get_field_name( 'amazondeals_code' ); ?>" ><?php echo stripslashes ($instance['amazondeals_code']); ?></textarea>
+	<textarea cols="35" rows="5" id="<?php echo $this->get_field_id( 'amazondeals_code' ); ?>" name="<?php echo $this->get_field_name( 'amazondeals_code' ); ?>" ><?php echo stripslashes ($instance['amazondeals_code']); ?></textarea>
 	</p>
 	<div class="description">Copy and Paste your amazon deals script code from Amazon website.</div>
 	<br>
@@ -90,6 +91,7 @@ class amazon_master_widget extends WP_Widget {
 		<b>Advanced Version Updater</b>
 		</p>
 		<div class="description">The advanced version updater allows to automatically update your advanced plugin. Only available in advanced version.</div>
+		<br>
 	<?php
 	}
  }
