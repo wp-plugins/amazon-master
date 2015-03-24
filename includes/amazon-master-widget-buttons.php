@@ -27,12 +27,20 @@ class amazon_master_widget_buttons extends WP_Widget {
 		// Display the widget title
 		if ( $amazon_title ){
 			if (empty ($amazon_title_new)){
-			$amazon_title_new = "Amazon Master";
+			if(is_multisite()){
+			$amazon_title_new = get_site_option('amazon_master_name');
+			}
+			else{
+			$amazon_title_new = get_option('amazon_master_name');
 			}
 		echo $before_title . $amazon_title_new . $after_title;
 		}
 		else{
+		echo $before_title . $amazon_title_new . $after_title;
 		}
+	}
+	else{
+	}
 	//Display Amazon Profile Button
 	if ( $show_amazonbutton ){
 		echo '<a href="'.$amazonbutton_page.'" target="_blank"><img src="'.$url_loc.'/amazon-master/images/techgasp-amazon-button.png"></a>';
@@ -86,7 +94,7 @@ class amazon_master_widget_buttons extends WP_Widget {
 	&nbsp;
 	<b>Amazon Master Website</b>
 	</p>
-	<p><a class="button-secondary" href="http://wordpress.techgasp.com/amazon-master/" target="_blank" title="Amazon Master Info Page">Info Page</a> <a class="button-secondary" href="http://wordpress.techgasp.com/amazon-master-documentation/" target="_blank" title="Amazon Master Documentation">Documentation</a> <a class="button-primary" href="http://wordpress.org/plugins/amazon-master/" target="_blank" title="Amazon Master Wordpress">RATE US *****</a></p>
+	<p><a class="button-secondary" href="http://wordpress.techgasp.com/amazon-master/" target="_blank" title="Amazon Master Info Page">Info Page</a> <a class="button-secondary" href="http://wordpress.techgasp.com/amazon-master-documentation/" target="_blank" title="Amazon Master Documentation">Documentation</a> <a class="button-primary" href="http://wordpress.techgasp.com/amazon-master/" target="_blank" title="Get Add-ons">Get Add-ons</a></p>
 	<?php
 	}
  }
