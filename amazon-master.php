@@ -2,7 +2,7 @@
 /**
 Plugin Name: Amazon Master
 Plugin URI: http://wordpress.techgasp.com/amazon-master/
-Version: 4.4.1.4
+Version: 4.4.1.5
 Author: TechGasp
 Author URI: http://wordpress.techgasp.com
 Text Domain: amazon-master
@@ -33,9 +33,9 @@ define( 'AMAZON_MASTER_URL', plugin_dir_url( __FILE__ ) );
 ///////DEFINE ID//////
 define( 'AMAZON_MASTER_ID', 'amazon-master');
 ///////DEFINE VERSION///////
-define( 'AMAZON_MASTER_VERSION', '4.4.1.4' );
+define( 'AMAZON_MASTER_VERSION', '4.4.1.5' );
 global $amazon_master_version, $amazon_master_name;
-$amazon_master_version = "4.4.1.4"; //for other pages
+$amazon_master_version = "4.4.1.5"; //for other pages
 $amazon_master_name = "Amazon Master"; //pretty name
 if( is_multisite() ) {
 update_site_option( 'amazon_master_installed_version', $amazon_master_version );
