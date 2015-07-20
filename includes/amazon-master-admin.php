@@ -57,7 +57,6 @@ $wp_list_table->display();
 <a class="button-secondary" href="http://wordpress.techgasp.com/support/" target="_blank" title="TechGasp Support">TechGasp Support</a>
 <a class="button-primary" href="http://wordpress.techgasp.com/amazon-master/" target="_blank" title="Visit Website"><?php echo get_option('amazon_master_name'); ?> Info</a>
 <a class="button-primary" href="http://wordpress.techgasp.com/amazon-master-documentation/" target="_blank" title="Visit Website"><?php echo get_option('amazon_master_name'); ?> Documentation</a>
-<a class="button-primary" href="http://wordpress.techgasp.com/amazon-master/" target="_blank" title="Visit Website">Get Add-ons</a>
 </p>
 <?php
 }
