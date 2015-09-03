@@ -2,7 +2,7 @@
 /**
 Plugin Name: Amazon Master
 Plugin URI: http://wordpress.techgasp.com/amazon-master/
-Version: 4.4.2.1
+Version: 4.4.2.2
 Author: TechGasp
 Author URI: http://wordpress.techgasp.com
 Text Domain: amazon-master
@@ -27,7 +27,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 if(!class_exists('amazon_master')) :
 ///////DEFINE VERSION///////
-define( 'AMAZON_MASTER_VERSION', '4.4.2.1' );
+define( 'AMAZON_MASTER_VERSION', '4.4.2.2' );
 
 global $amazon_master_name;
 $amazon_master_name = "Google Ads Master"; //pretty name

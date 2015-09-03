@@ -2,8 +2,8 @@
 Contributors: TechGasp
 Tags: wordpress, plugin, widget, shortcode, techgasp, amazon, affiliate, ads, income, sale, make money, revenue
 Requires at least: 3.5
-Tested up to: 4.2.3
-Stable tag: 4.4.2.1
+Tested up to: 4.3
+Stable tag: 4.4.2.2
 License: GPLv2 or later
 
 Amazon Master let's you can automatically display the hottest deals from Amazon making your wordpress a money making machine.
@@ -101,6 +101,10 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 
 
 == Changelog ==
+
+= 4.4.2.2 =
+* Wordpress 4.3
+* Removing name global
 
 = 4.4.2.1 =
 * Wordpress 4.2.3
